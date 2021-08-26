@@ -1,6 +1,12 @@
 body{
- /*   background-image: */
-    background-color: teal;
+    background-repeat: no-repeat;
+    background-size: 100%;
+/*    background-color: teal; */
+    
+}
+
+.filmes{
+    background-image: url(https://acontecendoaqui.com.br/sites/default/files/styles/full_content/public/cinema_1.jpg?itok=aMQuzrh4);
 }
 
 #barra-superior {
@@ -38,4 +44,34 @@ a {
 
 #conteudo {
     margin-top: 8%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    background-color: rgba(255, 255, 255, 0.712);
+    
+}
+
+.generos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.generos > h5 {
+    transform: translateY(-2px);
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 3px;
+    border: 3px solid black;
+    border-radius: 10em;
+}
+
+h4{
+    color:darkgoldenrod;
+}
+
+.cor-padrao{
+    color:black;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    text-align: justify;
 }
