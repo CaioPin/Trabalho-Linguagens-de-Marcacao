@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css"  href="conteudo.css">
     <title>Animes</title>
 </head>
-<body class="animes">
+<body id="animes">
     <div id="barra-superior">
         <p class="links-barra" id="principal"><a href="index.html">Página Principal</a></p>
         <p class="links-barra" id="primeiro"><a href="filmes.html" class="links-barra">Filmes</a></p>
@@ -21,13 +21,20 @@
                 <h4>Gêneros: </h4>
                 <h5>Terror</h5> <h5>Aventura</h5>
             </div>
-            <p class="cor-padrao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit, velit illum placeat, veritatis molestiae temporibus impedit vero eum consectetur facere debitis libero adipisci quae doloremque quidem sapiente modi illo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro repudiandae facere exercitationem neque, tempora molestias nostrum labore reiciendis? Iusto eos labore animi similique commodi tempora dolor nulla debitis nihil illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo fugiat, soluta aliquid ad possimus corrupti quisquam illo autem doloribus cupiditate quae debitis amet earum voluptates veritatis recusandae dolorem beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia reprehenderit veritatis tempore blanditiis harum dolor numquam a, inventore, hic nulla illum dolorem velit quasi doloremque accusamus asperiores placeat sed.</p>
-            <div class="resposta">
-                <details>
-                    <summary>Descobriu qual é?</summary>
-                    <p class="cor-padrao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur magnam pariatur quaerat, veniam dolores ducimus distinctio eum expedita quia doloremque at laborum facere! Corporis numquam fugit ex illum iusto!</p>
-                </details>
-            </div>
+            <p class="formatacao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit, velit illum placeat, veritatis molestiae temporibus impedit vero eum consectetur facere debitis libero adipisci quae doloremque quidem sapiente modi illo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro repudiandae facere exercitationem neque, tempora molestias nostrum labore reiciendis? Iusto eos labore animi similique commodi tempora dolor nulla debitis nihil illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo fugiat, soluta aliquid ad possimus corrupti quisquam illo autem doloribus cupiditate quae debitis amet earum voluptates veritatis recusandae dolorem beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia reprehenderit veritatis tempore blanditiis harum dolor numquam a, inventore, hic nulla illum dolorem velit quasi doloremque accusamus asperiores placeat sed.<br><br></p>
+            <!--  Nome, sinopse e trailer  -->
+            <details>
+                <summary>Descobriu qual é?</summary>
+                <div class="resposta">
+                    <div class="informacoes">
+                        <p class="formatacao-texto">Nome: Lorem ipsum</p>
+                        <p class="formatacao-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis hic adipisci porro commodi? Voluptatem quia a fuga distinctio facere qui ipsam, sit reiciendis assumenda harum officiis sunt, est sapiente sint.</p>
+                    </div>
+                    <div class="trailer">
+                        <video width="320px" height="240px" src="https://www.youtube.com/watch?v=vByXTrDrbZI" controls>
+                    </div>
+                </div>
+            </details>
         </div>
     </div>
 </body>

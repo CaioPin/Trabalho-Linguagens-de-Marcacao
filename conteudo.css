@@ -5,8 +5,13 @@ body{
     
 }
 
-.filmes{
+#filmes{
     background-image: url(https://acontecendoaqui.com.br/sites/default/files/styles/full_content/public/cinema_1.jpg?itok=aMQuzrh4);
+}
+
+#animes{
+    background-image: url(https://observatoriodeseries.uol.com.br/wp-content/uploads/2021/05/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg);
+    background-position: fixed;
 }
 
 #barra-superior {
@@ -66,10 +71,35 @@ div.generos > h5 {
 }
 
 h4{
-    color:darkgoldenrod;
+    color: black;
 }
 
-.cor-padrao{
+summary {
+    margin-left: 0.6%;
+}
+
+div.resposta > div.informacoes {
+    grid-area: informacoes;
+}
+
+div.resposta > div.trailer {
+    grid-area: trailer;
+    justify-self: center;
+    align-self: center;
+    max-width: 0.33fr;
+    max-width: 1fr;
+}
+
+.resposta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "informacoes informacoes trailer";
+    text-align: justify;
+    margin-left: 1.5%;
+}
+
+.formatacao-texto{
     color:black;
     margin-left: 1.5%;
     margin-right: 1.5%;
