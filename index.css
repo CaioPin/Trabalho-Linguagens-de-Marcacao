@@ -1,0 +1,38 @@
+body {
+    background-color: teal;
+}
+
+#barra-lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+div > p:first-child {
+    margin-top: 60%;
+}
+
+div > p:last-child {
+    margin-bottom: 60%;
+}
+
+.links-barra{
+    color: rgb(0, 128, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+#conteudo {
+    margin-left: 20%;
+    margin-right: 5%
+}

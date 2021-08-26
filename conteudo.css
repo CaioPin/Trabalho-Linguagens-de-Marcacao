@@ -1,0 +1,41 @@
+body{
+ /*   background-image: */
+    background-color: teal;
+}
+
+#barra-superior {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 8%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#principal {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.links-barra {
+    color: green;
+}
+
+div > p.links-barra:last-child {
+    padding-right: 7%;
+}
+
+div > p.links-barra:nth-child(2) {
+    padding-left: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#conteudo {
+    margin-top: 8%;
+}
