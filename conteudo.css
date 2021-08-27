@@ -75,7 +75,19 @@ h4{
 }
 
 summary {
+    display: inline-block;
     margin-left: 0.6%;
+    cursor: pointer;
+    list-style-image: url(https://image.flaticon.com/icons/png/512/98/98673.png);
+}
+
+.resposta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "informacoes informacoes trailer";
+    text-align: justify;
+    margin-left: 1.5%;
 }
 
 div.resposta > div.informacoes {
@@ -88,15 +100,6 @@ div.resposta > div.trailer {
     align-self: center;
     max-width: 0.33fr;
     max-width: 1fr;
-}
-
-.resposta {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "informacoes informacoes trailer";
-    text-align: justify;
-    margin-left: 1.5%;
 }
 
 .formatacao-texto{
