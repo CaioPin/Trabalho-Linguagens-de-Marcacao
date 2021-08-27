@@ -1,8 +1,15 @@
 body{
     background-repeat: no-repeat;
-    background-size: 100%;
-/*    background-color: teal; */
-    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#series{
+    background-image: url(https://cdn.playbuzz.com/cdn/fe80abaf-8331-4fd1-ad59-22e99567e9a3/56ef1b61-ffe0-4868-85e1-fa5f1ef3c6c4.jpg);
+}
+
+#desenhosanimados {
+    background-image: url(https://static.quizur.com/i/b/5987a57d82a612.54502150Nosso%20Quiz.jpg);
 }
 
 #filmes{
@@ -14,21 +21,28 @@ body{
     background-position: fixed;
 }
 
+#jogos{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/444/675/710/video-games-arcade-cabinet-arcade-playing-bag-hd-wallpaper-preview.jpg);
+    background-position: fixed;
+}
+
 #barra-superior {
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: orange;
     height: 8%;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #principal {
     padding-left: 5%;
     padding-right: 5%;
+    color:green;
 }
 
 .links-barra {
@@ -51,14 +65,18 @@ a {
     margin-top: 8%;
     margin-left: 4vw;
     margin-right: 4vw;
-    background-color: rgba(255, 255, 255, 0.712);
-    
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+div#conteudo > div {
+    transform: translateY(-10px);
 }
 
 .generos {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-left: 1px;
 }
 
 div.generos > h5 {
@@ -70,41 +88,57 @@ div.generos > h5 {
     border-radius: 10em;
 }
 
-h4{
-    color: black;
-}
-
 summary {
     display: inline-block;
     margin-left: 0.6%;
+    padding-left: 4px;
+    padding-right: 4px;
     cursor: pointer;
-    list-style-image: url(https://image.flaticon.com/icons/png/512/98/98673.png);
+    border: 1px solid black;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 2px 2px;
+    transform: translateZ(5px);
 }
 
 .resposta {
+    background-color: rgba(226, 220, 220, 0.514);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "informacoes informacoes trailer";
-    text-align: justify;
     margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 2px outset black;
+    align-items: center;
 }
 
 div.resposta > div.informacoes {
     grid-area: informacoes;
+    text-align: justify;
 }
 
 div.resposta > div.trailer {
     grid-area: trailer;
     justify-self: center;
-    align-self: center;
-    max-width: 0.33fr;
-    max-width: 1fr;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .formatacao-texto{
     color:black;
+    margin-top: 0px;
     margin-left: 1.5%;
     margin-right: 1.5%;
     text-align: justify;
+}
+
+.divisao {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-style: none none dotted none;
+    border-color: gray;
 }
