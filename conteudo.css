@@ -3,12 +3,15 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 #series{
     background-image: url(https://cdn.playbuzz.com/cdn/fe80abaf-8331-4fd1-ad59-22e99567e9a3/56ef1b61-ffe0-4868-85e1-fa5f1ef3c6c4.jpg);
 }
 
-#desenhosanimados {
+#desenhos-animados {
     background-image: url(https://static.quizur.com/i/b/5987a57d82a612.54502150Nosso%20Quiz.jpg);
 }
 
@@ -17,13 +20,11 @@ body{
 }
 
 #animes{
-    background-image: url(https://observatoriodeseries.uol.com.br/wp-content/uploads/2021/05/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg);
-    background-position: fixed;
+    background-image: url(https://wallpaperaccess.com/full/30626.jpg);
 }
 
 #jogos{
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/444/675/710/video-games-arcade-cabinet-arcade-playing-bag-hd-wallpaper-preview.jpg);
-    background-position: fixed;
 }
 
 #barra-superior {
@@ -31,7 +32,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
+    background-color: black;
     height: 8%;
     width: 100%;
     top: 0;
@@ -42,7 +43,18 @@ body{
 #principal {
     padding-left: 5%;
     padding-right: 5%;
-    color:green;
+}
+
+.links-principal {
+    color: teal;
+    transition-duration: 2s;
+}
+
+.links-principal:hover {
+    color: rgb(241, 94, 241);
+    text-shadow: 2px 2px 3px rgba(94, 191, 251, 0.676);
+    transition: 1.5s;
+    font-weight: 500;
 }
 
 .links-barra {
@@ -50,16 +62,28 @@ body{
 }
 
 div > p.links-barra:last-child {
-    padding-right: 7%;
+    margin-right: 7%;
 }
 
 div > p.links-barra:nth-child(2) {
-    padding-left: 15%;
+    margin-left: 15%;
 }
 
 a {
     text-decoration: none;
 }
+
+div#barra-superior p:not(#principal) {
+    transition-duration: 1s;
+}
+
+div#barra-superior p:not(#principal):hover {
+    margin-bottom: 10px;
+    border-style: dotted none dotted none;
+    border-color: black;
+    transition-duration: 1s;
+    padding-top: 10px;
+} 
 
 #conteudo {
     margin-top: 8%;

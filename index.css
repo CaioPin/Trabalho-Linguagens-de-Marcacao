@@ -1,8 +1,9 @@
 body {
     background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#barra-lateral{
+#barra-lateral {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,7 +17,28 @@ body {
     top: 0%;
 }
 
-div > p:first-child {
+#principal {
+    margin-top: 30%;
+}
+
+.links-principal {
+    color: lightseagreen;
+    text-decoration: underline overline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
+    transition-duration: 1s;
+}
+
+.links-principal:hover {
+    color: yellow;
+    letter-spacing: 2px;
+    text-decoration: underline overline;
+    text-decoration-style: wavy;
+    text-decoration-color: lightseagreen;
+    transition-duration: 1s;
+}
+
+div > p#primeira-crianca {
     margin-top: 60%;
 }
 
@@ -24,8 +46,21 @@ div > p:last-child {
     margin-bottom: 60%;
 }
 
-.links-barra{
-    color: rgb(0, 128, 0);
+.links-barra {
+    padding: 2px;
+    color: green;
+    transition-duration: 1s;
+}
+
+div > .links-barra:not(#principal):hover {
+    border-style: none none solid none;
+    border-color: green;
+    border-width: 1px;
+}
+
+.links-barra:not(#principal):hover {
+    color: white;
+    transition-duration: 1s;
 }
 
 a {
