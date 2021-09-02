@@ -8,23 +8,23 @@ body{
 }
 
 #series{
-    background-image: url(https://cdn.playbuzz.com/cdn/fe80abaf-8331-4fd1-ad59-22e99567e9a3/56ef1b61-ffe0-4868-85e1-fa5f1ef3c6c4.jpg);
+    background-image: url(Imagens/Series.jpg);
 }
 
 #desenhos-animados {
-    background-image: url(https://static.quizur.com/i/b/5987a57d82a612.54502150Nosso%20Quiz.jpg);
+    background-image: url(Imagens/Desenhos_animados.jpg);
 }
 
 #filmes{
-    background-image: url(https://acontecendoaqui.com.br/sites/default/files/styles/full_content/public/cinema_1.jpg?itok=aMQuzrh4);
+    background-image: url(Imagens/Filmes.jpg);
 }
 
 #animes{
-    background-image: url(https://wallpaperaccess.com/full/30626.jpg);
+    background-image: url(Imagens/Animes.jpg);
 }
 
 #jogos{
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/444/675/710/video-games-arcade-cabinet-arcade-playing-bag-hd-wallpaper-preview.jpg);
+    background-image: url(Imagens/Jogos.jpg);
 }
 
 #barra-superior {

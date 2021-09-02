@@ -69,5 +69,88 @@ a {
 
 #conteudo {
     margin-left: 20%;
-    margin-right: 5%
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.formulario{
+    text-align: center;
+}
+
+fieldset {
+    border-color: black;
+}
+
+legend {
+    border-width: 2px;
+    border-style: none solid none solid;
+    border-color: black;
+    background-color: rgba(0, 150, 150, 0.5);
+    font-size: 130%;
+    font-weight: 500;
+}
+
+#opcoes > ul {
+    display: grid;
+    grid-template-columns: 167px;
+    grid-template-rows: 25px 25px 25px 25px 25px;
+    justify-content: center;
+    padding-left: 0;
+}
+
+#opcoes li {
+    list-style: none;
+    justify-self: flex-start;
+}
+
+button {
+    border-radius: 2em;
+    font-size: 130%;
+    border: 3px solid black;
+    background-color: rgb(180, 180, 180);
+    user-select: none;
+}
+
+@keyframes background {
+    from {
+        background-color: rgba(255, 0, 0, 0.8);
+        border-color: rgb(255, 0, 0);
+    }
+    12.5%{
+        background-color: rgba(255, 128, 0, 0.8);
+        border-color: rgb(255, 128, 0);
+    }
+    25% {
+        background-color: rgba(255, 255, 0, 0.8);
+        border-color: rgb(255, 255, 0);
+    }
+    37.5% {
+        background-color: rgba(0, 128, 0, 0.8);
+        border-color: rgb(0, 128, 0);
+    }
+    50% {
+        background-color: rgba(0, 128, 255, 0.8);
+        border-color: rgb(0, 128, 255);
+    }
+    62.5% {
+        background-color: rgba(0, 0, 255, 0.8);
+        border-color: rgb(0, 0, 255);
+    }
+    75% {
+        background-color: rgba(76, 0, 130, 0.8);
+        border-color: rgb(76, 0, 130);
+    }
+    87.5% {
+        background-color: rgba(238, 90, 238, 0.8);
+        border-color: rgb(238, 90, 238);
+    }
+    100% {
+        background-color: rgba(255, 0, 0, 0.8);
+        border-color: rgb(255, 0, 0);
+    }
+}
+
+button:hover {
+    animation: background 4s linear 0s infinite;
+    color: white;
 }
