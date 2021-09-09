@@ -42,7 +42,7 @@ div > p#primeira-crianca {
     margin-top: 60%;
 }
 
-div > p:last-child {
+div#barra-lateral > p:last-child {
     margin-bottom: 60%;
 }
 
@@ -76,6 +76,8 @@ a {
 .formulario{
     text-align: center;
 }
+
+/* PÁGINA DE CONTATO */
 
 fieldset {
     border-color: black;
@@ -153,4 +155,47 @@ button {
 button:hover {
     animation: background 4s linear 0s infinite;
     color: white;
+}
+
+/* EQUIPE */
+
+.equipe {
+    text-align: center;
+    
+}
+
+.grid-equipe > img {
+    grid-area: img;
+    border: 3px solid brown;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.grid-equipe > p {
+    grid-area: p;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin: 0;
+    text-align: justify;
+}
+
+.grid-equipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+}
+
+#alvaro {
+    grid-template-areas: "img p p";
+}
+
+#caio {
+    grid-template-areas: "p p img";
+}
+
+#debora {
+    grid-template-areas: "img p p";
 }

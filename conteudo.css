@@ -144,8 +144,7 @@ div.resposta > div.informacoes {
 div.resposta > div.trailer {
     grid-area: trailer;
     justify-self: center;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 5px;
     padding-top: 0;
     padding-bottom: 0;
 }
