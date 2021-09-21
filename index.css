@@ -73,7 +73,25 @@ a {
     margin-top: 5%;
 }
 
-.formulario{
+#conteudo > #titulo {
+    margin-top: 5%;
+    font-size: 50px;
+    align-self: center;
+}
+
+#link-contato {
+    color:black;
+    background-color: white;
+    padding: 3px;
+}
+
+#link-equipe {
+    color:black;
+    background-color: white;
+    padding: 3px;
+}
+
+.formulario {
     text-align: center;
 }
 
