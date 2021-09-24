@@ -58,7 +58,7 @@ body{
 }
 
 .links-barra {
-    color: green;
+    color: rgba(129, 142, 145, 0.884);
 }
 
 div > p.links-barra:last-child {
